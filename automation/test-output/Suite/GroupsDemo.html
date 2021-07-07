@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>TestNG:  GroupsDemo</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GroupsDemo</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 25 19:59:27 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (56 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>SYSTEM SANITY INTEGRATION FUNCTIONAL </td>
+</tr><tr>
+<td>Excluded groups:</td><td>RETESTING </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.IT3()'><b>IT3</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-322836221" onClick='toggleBox("Output-322836221", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-322836221" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-322836221">
+IT3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.ST2()'><b>ST2</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-1586845078" onClick='toggleBox("Output-1586845078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1586845078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1586845078">
+ST2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.IT2()'><b>IT2</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-1582785598" onClick='toggleBox("Output-1582785598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1582785598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1582785598">
+IT2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.FT3()'><b>FT3</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-1218593486" onClick='toggleBox("Output-1218593486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1218593486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1218593486">
+FT3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.IT1()'><b>IT1</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-79290965" onClick='toggleBox("Output-79290965", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-79290965" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-79290965">
+IT1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.FT2()'><b>FT2</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-494586676" onClick='toggleBox("Output-494586676", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-494586676" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-494586676">
+FT2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.FT1()'><b>FT1</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-1413378318" onClick='toggleBox("Output-1413378318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1413378318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1413378318">
+FT1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.ST1()'><b>ST1</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-480971771" onClick='toggleBox("Output-480971771", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-480971771" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-480971771">
+ST1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.SAT3()'><b>SAT3</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-2134991632" onClick='toggleBox("Output-2134991632", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2134991632" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2134991632">
+SAT3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.SAT2()'><b>SAT2</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-450003680" onClick='toggleBox("Output-450003680", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-450003680" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-450003680">
+SAT2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.ST3()'><b>ST3</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-1356728614" onClick='toggleBox("Output-1356728614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1356728614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1356728614">
+ST3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+<tr>
+<td title='FlagsInTestNG.GroupsDemo.SAT1()'><b>SAT1</b><br>Test class: FlagsInTestNG.GroupsDemo<br/>
+<a href="#Output-1370651081" onClick='toggleBox("Output-1370651081", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1370651081" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1370651081">
+SAT1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>FlagsInTestNG.GroupsDemo@17579e0f</td></tr>
+</table><p>
+</body>
+</html>
